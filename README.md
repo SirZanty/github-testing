@@ -10,3 +10,7 @@ git revert <commit to revert>
 
 ### Log - Show log history
 - git log --all --graph --decorate --oneline
+
+### Tag - Add tag and push to github
+- git tag -a "TagName" -m "Mensaje"
+- git push --tags
