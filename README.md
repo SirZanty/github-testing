@@ -7,3 +7,6 @@ git revert <commit to revert>
 - --soft just move to previous commit
 
 - --hard move to previous commit and delete the changes
+
+### Log - Show log history
+- git log --all --graph --decorate --oneline
