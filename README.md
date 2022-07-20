@@ -11,6 +11,8 @@ git revert <commit to revert>
 ### Log - Show log history
 - git log --all --graph --decorate --oneline
 
-### Tag - Add tag and push to github
-- git tag -a "TagName" -m "Mensaje"
-- git push --tags
+### Tag
+- git tag -a "TagName" -m "Mensaje"  * Add tag to local
+- git push --tags * Push tags to github
+- git tag -d "Nombre del tag" * Delete local tag
+- git push :refs/tags/nombre del tag * Delete tag on github
