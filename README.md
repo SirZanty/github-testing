@@ -15,4 +15,4 @@ git revert <commit to revert>
 - git tag -a "TagName" -m "Mensaje"  * Add tag to local
 - git push --tags * Push tags to github
 - git tag -d "Nombre del tag" * Delete local tag
-- git push :refs/tags/nombre del tag * Delete tag on github
+- git push origin :refs/tags/nombre del tag * Delete tag on github
